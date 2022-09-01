@@ -14,7 +14,7 @@ public class Controller {
 
 	@GetMapping("/avarage/{vals}")
 	public int getAvg(@PathVariable(name = "vals") int[] vals) {
-		System.err.println(vals.length)
+		System.err.println(vals.length);
 		return service.avg(vals);
 	}
 }
