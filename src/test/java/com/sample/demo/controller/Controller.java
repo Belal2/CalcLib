@@ -14,9 +14,9 @@ class Controller {
 	@Test
 	void test() {
 		int[] x = { 1, 2, 3, 2, 4, 1 };
-		sad
+
 		int result = service.avg(x);
-		org.springframework.util.Assert.isTrue(result == 1);
+		org.springframework.util.Assert.isTrue(result == 0);
 	}
 
 }
