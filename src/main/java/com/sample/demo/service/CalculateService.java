@@ -8,6 +8,7 @@ import static java.lang.System.*;
 public class CalculateService {
 
 	public int avg(int[] args) {
+
 		err.println(args.length);
 		int total = 0;
 		for (int i : args) {
