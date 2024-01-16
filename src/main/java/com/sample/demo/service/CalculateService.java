@@ -13,6 +13,7 @@ public class CalculateService {
 		for (int i : args) {
 			total += args[i - 1];
 		}
+
 		err.println(total);
 		return total / args.length;
 	}
